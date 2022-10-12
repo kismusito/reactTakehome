@@ -1,8 +1,13 @@
 # Frontend take home assignment for React.JS
 ## Requirements:
 ### Fork this repository
-### Under Graphs tab add graphs for the user’s income and followers over time using the Recharts library.
+### Create utility function for sorting JSON lists
 •	Test data is provided in src/data in JSON format
+
+•	Test data is unsorted so in order to display it you will need a function that takes in the json file and returns it sorted by date
+
+### Under Graphs tab add graphs for the user’s income and followers over time using the Recharts library.
+
 
 •	Library located at https://www.npmjs.com/package/recharts
 
@@ -13,12 +18,13 @@
 
 •	Fields currently display hardcoded values so to complete this step you would first need to create functions to get the required information then pass it to the screen
 
+### Use CSS and Styling to make the layout more visually pleasing and adaptable to mobile devices
+
 ### Optional (not required but if implemented well would greatly improve your standing)
-•	Make the layout more visually pleasing and adaptable to mobile devices
 
 •	Create scrolling lists in the Transactions and Followers tabs using provided data
 
-•	Create a dropdown that allows the timespan of the graphs be changed – aka you can select “last 7 days” – “last month” – or “last year” and the graphs and data blocks will change in accordance to the set timespan
+•	Create a dropdown that allows the timespan of the graphs be changed – aka you can select “last 7 days” – “last month” – “last year” - or "all time" and the graphs and data blocks will change in accordance to the set timespan
 
 ## Judging Criteria
 •	Cleanliness of your code

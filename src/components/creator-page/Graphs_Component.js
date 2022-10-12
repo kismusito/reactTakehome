@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 import './Graphs.css'
-import { DataBlock, DataGraph } from '../DataComponents';
+import { DataBlock, DataGraph } from '../data-components';
 
 const Graphs_Component = () => {
 	return (
