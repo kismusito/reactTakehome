@@ -10,4 +10,15 @@
   margin-bottom: 15px;
   border: 2px solid  #00000014;
   border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  display: inline;
+  margin-right: 10px;
+}
+
+.icon svg {
+  font-size: 26px;
 }

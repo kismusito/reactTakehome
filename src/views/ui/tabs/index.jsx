@@ -30,6 +30,7 @@ const Tabs = ({ data = [] }) => {
                 item.name === currentComponent && styles["tab-item-active"]
               }`}
             >
+              {item.icon && item.icon}
               {item.title}
             </div>
           ))}
@@ -51,6 +52,7 @@ Tabs.propTypes = {
       key: PropTypes.number,
       name: PropTypes.string,
       title: PropTypes.string,
+      icon: PropTypes.node,
       component: PropTypes.element,
     })
   ).isRequired,

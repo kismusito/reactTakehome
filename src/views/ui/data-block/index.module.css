@@ -38,6 +38,14 @@
   margin: 0;
 }
 
+.icon {
+  margin-bottom: 6px;
+}
+
+.icon svg {
+  font-size: 36px;
+}
+
 @media screen and (max-width: 1000px) {
   .container {
     width: 48%;

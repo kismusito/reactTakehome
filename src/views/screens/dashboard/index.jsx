@@ -8,6 +8,10 @@ import { Transactions } from "../transactions";
 import { Followers } from "../followers";
 import { getData } from "../../../utils/filters";
 
+import { GoGraph } from "react-icons/go";
+import { GrTransaction } from "react-icons/gr";
+import { FiUsers } from "react-icons/fi";
+
 export const DataContext = createContext();
 
 export const Dashboard = () => {
@@ -32,18 +36,21 @@ export const Dashboard = () => {
               name: "graphs",
               title: "Graphs",
               component: <Graphs />,
+              icon: <GoGraph />,
             },
             {
               key: 2,
               name: "transactions",
               title: "Transactions",
               component: <Transactions />,
+              icon: <GrTransaction />,
             },
             {
               key: 3,
               name: "followers",
               title: "Followers",
               component: <Followers />,
+              icon: <FiUsers />,
             },
           ]}
         />
