@@ -1,0 +1,11 @@
+.container {
+    width: 100%;
+    padding: 18px;
+    border: 1px solid #9696964f;
+    outline: none;
+    border-radius: 5px;
+}
+
+.option {
+    background-color: #fff;
+}

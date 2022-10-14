@@ -1,0 +1,51 @@
+.container {
+  background-color: #fff;
+  padding: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 5px;
+  box-shadow: 0 0 13px 0 #00000014;
+  width: 24%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.value {
+  display: flex;
+  justify-content: center;
+}
+
+.value p {
+  font-weight: bold;
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.value span {
+  margin-left: 5px;
+}
+
+.up {
+  color: green;
+}
+
+.down {
+  color: red;
+}
+
+.title {
+  font-size: 1em;
+  margin: 0;
+}
+
+@media screen and (max-width: 1000px) {
+  .container {
+    width: 48%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+      width: 100%;
+    }
+  }

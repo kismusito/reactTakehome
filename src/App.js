@@ -1,12 +1,7 @@
-import './App.css';
 import React from "react";
-import {CreatorPage} from './pages';
 
-export default function App() {
+import { Dashboard } from "./views/screens/dashboard";
 
-    return (
-        <div id="App">
-            <CreatorPage />
-        </div>
-    );
-}
+export const App = () => {
+  return <Dashboard />;
+};
